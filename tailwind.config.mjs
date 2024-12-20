@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,8 +8,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "ucla-blue": "#2774AE",
+        "ucla-gold": "#FFD100",
+        "dark-bg": "#000000",
+        "light-bg": "#FFFFFF",
+        "dark-primary-text": "#f2f2f2",
+        "dark-secondary-text": "#999999",
+        "light-primary-text": "#333333",
+        "light-secondary-text": "#666666",
+      },
+      fontFamily: {
+        sans: ["var(--font-roboto)", "sans-serif"],
       },
     },
   },

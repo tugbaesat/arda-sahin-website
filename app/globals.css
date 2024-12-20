@@ -3,19 +3,50 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --dark-bg: #000000;
+  --light-bg: #ffffff;
+  --light-primary-text: #333333;
+  --light-secondary-text: #666666;
+  --dark-primary-text: #f2f2f2;
+  --dark-secondary-text: #999999;
+  --brand-primary: #2774AE;
+  --font-roboto: "Roboto", sans-serif;
+  --font-raleway: "Raleway", sans-serif;
+  --font-advent-pro: "Advent Pro", sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--brand-primary);
+  color: var(--);
+  font-family: var(--font-roboto);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+.header-bg {
+  position: relative;
+  background: url("/images/ucla-mobile.jpeg") no-repeat center;
+  background-size: contain;
+}
+
+@media (min-width: 1024px) {
+  .header-bg {
+    position: relative;
+    background: url("/images/ucla.jpeg") no-repeat bottom center;
+    background-size: cover;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+p {
+  text-align: justify;
+}
+ul {
+  padding-left: 2.5rem /* 40px */;
+  padding-right: 2.5rem /* 40px */;
 }

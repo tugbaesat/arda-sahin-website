@@ -5,7 +5,7 @@ const Research = () => {
     <section className="flex justify-center items-center py-20 bg-white">
       <ul className="flex flex-col  gap-4 lg:w-3/5">
         <li>
-          <h2 className="text-5xl">Research</h2>
+          <h2 className="text-3xl underline">Research</h2>
         </li>
         <li>
           <p>

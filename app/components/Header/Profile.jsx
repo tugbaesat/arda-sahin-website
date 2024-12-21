@@ -18,7 +18,7 @@ const Profile = () => {
           className="rounded-full absolute -top-36"
         />
         <h1 className="text-3xl pt-4">Arda Şahin</h1>
-        <ul className="text-lg font-light text-center flex flex-col justify-center items-center">
+        <ul className="text-xl font-light text-center flex flex-col justify-center items-center gap-1">
           <li>University of California, Los Angeles</li>
           <li>Ph.D. Candidate</li>
           <li>Geotechnical Earthquake Engineering Researcher</li>

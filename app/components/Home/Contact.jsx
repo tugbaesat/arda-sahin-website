@@ -2,13 +2,13 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="flex justify-center items-center pt-20">
-      <ul className="flex flex-col  gap-4 lg:w-3/5">
+    <section className="flex justify-center items-center pt-10">
+      <ul className="flex flex-col  gap-3 lg:w-3/5">
         <li>
-          <h2 className="text-5xl">Contact Information</h2>
+          <h2 className="text-3xl underline">Contact Information</h2>
         </li>
         <li>
-          <p>arda120222@g.ucla.edu</p>
+          <p>arda120222@ucla.edu</p>
         </li>
         <li>
           {" "}

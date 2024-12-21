@@ -5,7 +5,7 @@ const reports = [
       "The Assessment of Seismic Liquefaction Triggering of Gravelly Soils",
     type: "Thesis",
     authors:
-      "Sahin, A. (2023). The Assessment of Seismic Liquefaction Triggering of Gravelly Soils [M.Sc Thesis, Middle East Technical University]. https://hdl.handle.net/11511/104490",
+      "Sahin, A. (2023). The Assessment of Seismic Liquefaction Triggering of Gravelly Soils [M.Sc Thesis, Middle East Technical University].",
     link: "https://hdl.handle.net/11511/104490",
   },
   {

@@ -4,7 +4,7 @@ const conferences = [
     title:
       "Gravelly Liquefaction Case Histories after 2008 Wenchuan-China Earthquake Mw= 7.9",
     authors:
-      "Sahin, A., Cetin, K.O. Gravelly Liquefaction Case Histories after 2008 Wenchuan-China Earthquake Mw = 7.9. Int. J. of Geosynth. and Ground Eng. 9, 42 (2023). https://doi.org/10.1007/s40891-023-00456-9",
+      "Sahin, A., Cetin, K.O. Gravelly Liquefaction Case Histories after 2008 Wenchuan-China Earthquake Mw = 7.9. Int. J. of Geosynth. and Ground Eng. 9, 42 (2023).",
     link: "http://dx.doi.org/10.1007/s40891-023-00456-9",
   },
   {
@@ -12,15 +12,15 @@ const conferences = [
     title:
       "Seismic Soil Liquefaction Triggering Performances of Two Petrochemical Facilities in Turkiye-Hatay-Dortyol Port Region Shaken by the February 6, 2023 Kahramanmaras Earthquake Sequence",
     authors:
-      "Sahin, A., & Cetin, K. O. (2023). Seismic soil liquefaction triggering performances of two petrochemical facilities in Turkiye-Hatay-Dortyol port region shaken by the February 6, 2023 Kahramanmaras earthquake sequence. 4th International Turkish World Engineering and Science Congress, Antalya, Turkey. https://teskongre.org/fm2023/bildiri-kitapcigi/",
-    link: "teskongre.org",
+      "Sahin, A., & Cetin, K. O. (2023). Seismic soil liquefaction triggering performances of two petrochemical facilities in Turkiye-Hatay-Dortyol port region shaken by the February 6, 2023 Kahramanmaras earthquake sequence. 4th International Turkish World Engineering and Science Congress, Antalya, Turkey.",
+    link: "https://teskongre.org/fm2023/bildiri-kitapcigi/",
   },
   {
     id: "2",
     title:
       "Seismic Soil Liquefaction Triggering Assessment of Gravelly Soil Case Histories",
     authors:
-      "Sahin, A., & Cetin, K. O. (2024). Seismic Soil Liquefaction Triggering Assessment of Gravelly Soil Case Histories. Geo-Congress 2024, https://doi.org/10.1061/9780784485316.006",
+      "Sahin, A., & Cetin, K. O. (2024). Seismic Soil Liquefaction Triggering Assessment of Gravelly Soil Case Histories. Geo-Congress 2024.",
     link: "https://doi.org/10.1061/9780784485316.006",
   },
   {

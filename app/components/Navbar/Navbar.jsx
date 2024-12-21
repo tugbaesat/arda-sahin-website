@@ -20,11 +20,11 @@ const Navbar = () => {
             key={link.id}
             href={link.path}
             scroll={false} // Prevent scrolling to the top
-            className={`pb-2 ${
+            className={`pb-2 transition-all duration-300 ${
               pathname === link.path
-                ? "border-ucla-gold font-bold border-b-4"
+                ? "border-ucla-gold text-ucla-gold font-bold border-b-4"
                 : "border-white font-light border-b-2"
-            }`}
+            } hover:font-bold hover:border-b-4`}
           >
             <p className="text-xl capitalize">{link.title}</p>
           </Link>
